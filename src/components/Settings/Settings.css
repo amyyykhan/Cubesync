@@ -1,0 +1,17 @@
+.settingsPanel {
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items:flex-start;
+gap: 13px;
+
+}
+.settings{
+  height: 100vh;
+  /* overflow-x: hidden; */
+ overflow-y: scroll; 
+}
+
+.settingsChoiceBtn:not(:last-child) {
+    margin-right: 10px; /* Adjust the value according to your preference */
+  }

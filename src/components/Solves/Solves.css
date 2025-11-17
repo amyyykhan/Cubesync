@@ -1,0 +1,107 @@
+.solvesContainer {
+  color: rgb(22, 21, 21);
+  min-height: 50vh;
+  max-height: 50vh;
+
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.solveTime {
+  color: rgb(0, 253, 0);
+  width: 82px;
+}
+.solveSno {
+  color: aliceblue;
+  width: 45px;
+}
+.solveDelete{
+  color: white;
+
+}
+.solveDelete:hover {
+  color: rgb(59, 174, 195);
+  cursor: pointer;
+}
+.solveDNF {
+  color: white;
+}
+.solveDNF:hover {
+  color: rgb(59, 174, 195);
+
+  cursor: pointer;
+}
+.solvePlus2 {
+  color: white;
+  cursor: pointer;
+}
+.solvePlus2:hover {
+  color: rgb(59, 174, 195);
+  cursor: pointer;
+}
+.solveDelete {
+  color: white;
+}
+.solvesContainer {
+  overflow-y: auto;
+  height: 100%; /* This makes the inner container take up 100% height of its parent */
+}
+.solve {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+.solveTimeBtn:hover {
+  p {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.solveTimeBtn{
+}
+
+.noSolvesTitle{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45%;
+}
+.noSolvesTitle p{
+
+}
+
+
+
+.solvesContainer {
+  --sb-track-color: #142d29;
+  --sb-thumb-color: #ffffff;
+  --sb-size: 7px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+.solvesContainer::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+.solvesContainer::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 18px;
+}
+
+.solvesContainer::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 18px;
+  
+  }
+
+.solvesContainer::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 18px;
+  
+  }

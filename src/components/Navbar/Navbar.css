@@ -1,0 +1,52 @@
+/* VerticalNavbar.css */
+
+.vertical-navbar {
+
+position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: inherit;
+  color: white;
+  padding: 20px;
+
+  ;
+
+}
+@media only screen and (max-width: 599px) {
+  .vertical-navbar  {
+  height: 10vh;
+
+  }
+}
+.navTitle{
+  margin-bottom: 30px;
+}
+.NavbarHeader ul {
+  list-style-type: none; /* Remove list bullets */
+
+}
+
+.NavbarHeader li {
+
+width: 100%;
+  cursor: pointer;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+ .NavbarHeader .navItem {
+margin-right: 12px;
+margin-bottom: 30px;
+  text-decoration:none;
+  color: white;
+  display: flex;
+
+}
+.logoimg{
+  width: 45px;
+  border: 20%;
+}

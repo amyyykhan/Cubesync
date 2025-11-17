@@ -1,0 +1,44 @@
+body{
+  color:aliceblue
+}
+
+.timer{
+margin-top: 2px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 332px;
+      user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+@font-face {
+  font-family: timefont;
+  src: url(../../utility/SfDigitalReadoutHeavy-AwVg.ttf);
+}
+.timerText{
+    font-size: 77px;
+    font-family: timefont;
+/*     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; */
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    /* Tablet styles go here */
+  }
+  
+  /* Media query for mobile devices (portrait and landscape) */
+  @media only screen and (max-width: 599px) {
+    .scramble{
+      font-size: 0.19em;
+    }
+  }
+  .smDeviceScramblevisual{
+    position: absolute;
+
+    bottom: 0px;
+    /* background-color: red; */
+  }

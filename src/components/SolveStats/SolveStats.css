@@ -1,0 +1,63 @@
+.solveStatscontainer {
+  width: 100%;
+  overflow: auto;
+}
+
+.text-slider {
+  border-radius: 0px;
+  text-align: left;
+  background: #737373;
+  box-shadow: inset 16px 16px 39px #545454,
+              inset -16px -16px 39px #929292;
+  white-space: nowrap;
+  padding: 12px;
+  color: white;
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.copySolveBtn {
+  font-size: 17px;
+  vertical-align: top;
+}
+
+.solveStatsWrap {
+  overflow-x: auto; /* Add horizontal scrolling if needed */
+}
+
+.statsTable {
+  font-size: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.statsTable th, .statsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.statsSolve td {
+  white-space: nowrap;
+}
+.statsOptions{
+  text-align: left;
+}
+.statsOptionInput{
+  margin-right: 6px;
+}
+
+.statsOptionLabel{
+  font-size: 16px;
+}
+.statsHead{
+  font-size:13px;
+}
+.statsSolveTime{
+  color: blue;
+  text-decoration: underline;
+}
+.statsSolveTime:hover{
+  color: white;
+}

@@ -1,0 +1,58 @@
+.scramblePlayround .scrambleTextInput {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  background-color: transparent;
+  color: white;
+
+  height: 120px;
+  width: 100%;
+  /* Additional styling for a modern appearance */
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  /* No need for overflow-y property to enable default scrollbar behavior */
+  transition: border-color 0.3s ease;
+}
+.scramblePlayround .scrambleText {
+  user-select: none;
+  width: 91%;
+  -moz-user-select: none;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.scramblePlayround {
+  /* display: flex; */
+  /* background-color: black; */
+  width: 100%;
+  /* max-width: 75%; */
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* Tablet styles go here */
+  .scramblePlayround {
+    width: 100%;
+  }
+  .scramblePlayround .scrambleText {
+    
+    font-size:19px   !important;
+    padding-top: 12px;
+  
+  }
+}
+
+/* Media query for mobile devices (portrait and landscape) */
+@media only screen and (max-width: 599px) {
+  .scramblePlayround .scrambleText {
+    font-size: 29px;
+  }
+  .scramblePlayround {
+    padding: 3px;
+    max-width: 100%;
+  }
+}
+.alterScramBtn {
+  margin-right: 15px;
+}
